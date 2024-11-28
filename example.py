@@ -5,7 +5,7 @@ matcher = FuzzyMatcher(threshold=0.85, accurate_digits=True, case_sensitive=Fals
 print("\n")
 print(["World War I", "World War II"], matcher.get_similarity("World War I", "World War II"), matcher.match("World War I", "World War II")) 
 print(["E505", "E505"], matcher.get_similarity("E505", "E505"), matcher.match("E505", "E505")) 
-print(["E505", "E505"], matcher.get_similarity("E504", "E505"), matcher.match("E504", "E505")) 
+print(["E504", "E505"], matcher.get_similarity("E504", "E505"), matcher.match("E504", "E505")) 
 
 
 word_list = ["E505", "E423", "Almond", "gluten"]
