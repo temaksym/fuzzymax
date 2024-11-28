@@ -1,9 +1,8 @@
 # FuzzyMax Project
 
 ## Team Members:
-- John Doe
-- Jane Smith
-- Alice Johnson
+- Maksym Teutuliak
+- Maksym Altukhov
 
 ## Project Description
 FuzzyMax is a Python package designed to find the best matches for a list of words within a given text. It utilizes fuzzy matching techniques to identify the most similar words and provides options to return the indexes of these matches within the text.
